@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 157, 81, 0.91);
+  height: 56px;
+  min-height: 56px;
+  padding: 0;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24);
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+  margin-left: 20px;
+}
+
+header img {
+  height: 50px;
+  width: 40px;
+}
+
