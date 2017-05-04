@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   moduleId: module.id,
@@ -8,7 +9,12 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  menu1 = 'О нас';
-  menu2 = 'Оплата и доставка';
-  menu3 = 'Контакты';
+  menu1 = 'Home';
+  menu2 = 'Country';
+
+  constructor(private router: Router) {}
+
+  onSelect() {
+    // this.router.navigate(['/country']);
+  }
 }

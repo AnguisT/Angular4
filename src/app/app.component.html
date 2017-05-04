@@ -1,11 +1,21 @@
 <header>
   <img src="img/xxy1Nxfio5I.jpg">
-  <a href="/">{{menu1}}</a>
-  <a href="/">{{menu2}}</a>
-  <a href="/">{{menu3}}</a>
+  <a [routerLink]="['']" routerLinkActive="active">{{menu1}}</a>
+  <a [routerLink]="['country']" routerLinkActive="active">{{menu2}}</a>
+  <!--<a routerLink="country" routerLinkActive="active">{{menu2}}</a>-->
 </header>
 
-<input type="text"/>
-<button>
-  <i class="glyphicon glyphicon-search"></i>
-</button>
+<main>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</main>
+
+<footer>
+  <div>
+    Краткая информация:
+    <div>
+      Мы продаем вкусный чай!)
+    </div>
+  </div>
+</footer>
