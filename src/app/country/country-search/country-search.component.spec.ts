@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CuntrySearchComponent } from './cuntry-search.component';
+import { CountrySearchComponent } from './country-search.component';
 
-describe('CuntrySearchComponent', () => {
-  let component: CuntrySearchComponent;
-  let fixture: ComponentFixture<CuntrySearchComponent>;
+describe('CountrySearchComponent', () => {
+  let component: CountrySearchComponent;
+  let fixture: ComponentFixture<CountrySearchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CuntrySearchComponent ]
+      declarations: [ CountrySearchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CuntrySearchComponent);
+    fixture = TestBed.createComponent(CountrySearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

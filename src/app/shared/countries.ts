@@ -16,7 +16,8 @@ export const PROPERTIES = [
     area: 17125191,
     language: "Russian",
     capital: "Moscow",
-    currency: "Ruble"
+    currency: "Ruble",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Flag_of_Russia_%28Kremlin.ru%29.svg"
   },
   {
     id: 3,
@@ -25,7 +26,8 @@ export const PROPERTIES = [
     area: 9596961,
     language: "Chinese",
     capital: "Beijing",
-    currency: "Renminbi"
+    currency: "Renminbi",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
   },
   {
     id: 4,
@@ -34,7 +36,8 @@ export const PROPERTIES = [
     area: 3287263,
     language: "Hindi",
     capital: "New Delhi",
-    currency: "Indian rupee"
+    currency: "Indian rupee",
+    flag: "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
   },
   {
     id: 5,
@@ -43,7 +46,8 @@ export const PROPERTIES = [
     area: 242495,
     language: "English",
     capital: "London",
-    currency: "Pound sterling"
+    currency: "Pound sterling",
+    flag: "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
   },
   {
     id: 6,
@@ -52,7 +56,8 @@ export const PROPERTIES = [
     area: 643801,
     language: "French",
     capital: "Paris",
-    currency: "Euro"
+    currency: "Euro",
+    flag: "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
   },
   {
     id: 7,
@@ -61,7 +66,8 @@ export const PROPERTIES = [
     area: 100210,
     language: "Korean",
     capital: "Seoul",
-    currency: "South Korean won"
+    currency: "South Korean won",
+    flag: ""
   },
   {
     id: 8,
@@ -70,7 +76,8 @@ export const PROPERTIES = [
     area: 357168,
     language: "German",
     capital: "Berlin",
-    currency: "Euro"
+    currency: "Euro",
+    flag: "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
   },
   {
     id: 9,
@@ -79,7 +86,8 @@ export const PROPERTIES = [
     area: 377972,
     language: "Japanese",
     capital: "Tokyo",
-    currency: "Yen"
+    currency: "Yen",
+    flag: "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg"
   },
   {
     id: 10,
@@ -88,6 +96,7 @@ export const PROPERTIES = [
     area: 783356,
     language: "Turkish",
     capital: "Ankara",
-    currency: "Ruble"
+    currency: "Ruble",
+    flag: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"
   }
 ];

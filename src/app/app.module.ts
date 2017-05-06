@@ -17,7 +17,8 @@ import { ServiceService } from './service/service.service';
 import { PropertyService } from './service/property-service';
 import { HomeComponent } from './home/home.component';
 import { CountryDetailsComponent } from './country/country-details/country-details.component';
-import { CuntrySearchComponent } from './country/cuntry-search/cuntry-search.component';
+import { CountrySearchComponent } from './country/country-search/country-search.component';
+import { SearchPipePipe } from './country/search-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { CuntrySearchComponent } from './country/cuntry-search/cuntry-search.com
     CountryListComponent,
     HomeComponent,
     CountryDetailsComponent,
-    CuntrySearchComponent
+    CountrySearchComponent,
+    SearchPipePipe
   ],
   imports: [
     BrowserModule,

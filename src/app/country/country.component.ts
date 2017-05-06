@@ -11,13 +11,18 @@ import { PropertyService } from '../service/property-service';
 })
 export class CountryComponent implements OnInit {
   countrys: Country[];
+  term: string;
 
   constructor(private countryService: ServiceService, private _properService: PropertyService) {
     this.countrys = [];
   }
 
   ngOnInit() {
-    this._properService.getCountry().subscribe(res => this.countrys = res)
+    this._properService.getCountry().subscribe(res => this.countrys = res);
     // this.countryService.getCountry().subscribe(countrys => this.countrys = countrys);
+  }
+
+  update(term: string) {
+    this.term = term;
   }
 }

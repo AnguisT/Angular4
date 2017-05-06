@@ -9,4 +9,5 @@ import {Country} from "../../shared/country";
 })
 export class CountryListComponent {
   @Input() countrys: Country[];
+  @Input() term: string;
 }
