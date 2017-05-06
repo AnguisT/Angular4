@@ -11,10 +11,4 @@ import {Router} from "@angular/router";
 export class AppComponent {
   menu1 = 'Home';
   menu2 = 'Country';
-
-  constructor(private router: Router) {}
-
-  onSelect() {
-    // this.router.navigate(['/country']);
-  }
 }

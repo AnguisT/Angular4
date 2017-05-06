@@ -16,6 +16,8 @@ import { CountryListComponent } from './country/country-list/country-list.compon
 import { ServiceService } from './service/service.service';
 import { PropertyService } from './service/property-service';
 import { HomeComponent } from './home/home.component';
+import { CountryDetailsComponent } from './country/country-details/country-details.component';
+import { CuntrySearchComponent } from './country/cuntry-search/cuntry-search.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { HomeComponent } from './home/home.component';
     CountryComponent,
     CountryItemComponent,
     CountryListComponent,
-    HomeComponent
+    HomeComponent,
+    CountryDetailsComponent,
+    CuntrySearchComponent
   ],
   imports: [
     BrowserModule,

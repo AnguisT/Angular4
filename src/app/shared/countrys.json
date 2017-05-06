@@ -7,7 +7,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Moscow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "area": 17125191,
       "language": "Russian",
       "capital": "Mosсow",
-      "money": "Ruble"
+      "currency": "Ruble"
     }
   ]
 }

@@ -1,3 +1,4 @@
 <div>
-  <a href="">{{country.title}}</a>
+  <img src="{{country.flag}}" style="height: 84px; width: 160px;">
+  <a [routerLink]="['/country', country.id]" routerLinkActive="active">{{country.title}}</a>
 </div>

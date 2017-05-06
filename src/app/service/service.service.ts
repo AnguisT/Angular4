@@ -11,7 +11,7 @@ import {ActivatedRoute} from "@angular/router";
 
 @Injectable()
 export class ServiceService {
-  private apiUrl = 'https://api.myjson.com/bins/16wlth';
+  private apiUrl = 'http://api.myjson.com/bins/16wlth';
 
   constructor(private http: Http) { }
 

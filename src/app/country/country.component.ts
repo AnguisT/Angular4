@@ -17,9 +17,7 @@ export class CountryComponent implements OnInit {
   }
 
   ngOnInit() {
-    this._properService.findAll().subscribe(res => this.countrys = res)
+    this._properService.getCountry().subscribe(res => this.countrys = res)
     // this.countryService.getCountry().subscribe(countrys => this.countrys = countrys);
-
   }
-
 }

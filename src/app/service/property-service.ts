@@ -5,9 +5,16 @@ import {Observable} from 'rxjs/Observable';
 @Injectable()
 export class PropertyService {
 
-  findAll() {
+  getCountry() {
     return Observable.create(observer => {
       observer.next(PROPERTIES);
+      observer.complete();
+    });
+  }
+
+  getOneCountry(idCountry) {
+    return Observable.create(observer => {
+      observer.next(PROPERTIES.find(data => data.id === idCountry));
       observer.complete();
     });
   }

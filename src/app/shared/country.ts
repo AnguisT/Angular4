@@ -5,5 +5,6 @@ export class Country {
   area: number;
   language: string;
   capital: string;
-  valuyuta: string;
+  currency: string;
+  flag: string;
 }
