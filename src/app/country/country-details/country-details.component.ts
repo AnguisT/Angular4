@@ -2,6 +2,7 @@ import {Component, Input, OnInit} from '@angular/core';
 import {PropertyService} from "../../service/property-service";
 import {Country} from "../../shared/country";
 import {ActivatedRoute} from "@angular/router";
+import {ServiceService} from "../../service/service.service";
 
 @Component({
   selector: 'app-country-details',
@@ -12,7 +13,7 @@ export class CountryDetailsComponent implements OnInit {
   @Input() countries: Country;
   private sub: any;
 
-  constructor(private _properService: PropertyService, private route: ActivatedRoute) {
+  constructor(private _properService: PropertyService, private _countryService: ServiceService, private route: ActivatedRoute) {
   }
 
   ngOnInit() {
@@ -20,6 +21,7 @@ export class CountryDetailsComponent implements OnInit {
       let id = +params['id'];
       console.log(id);
       this._properService.getOneCountry(id).subscribe(res => this.countries = res);
+      // this._countryService.getOneCountry(id).subscribe(res => this.countries = res);
     });
     console.log(this.countries);
   }

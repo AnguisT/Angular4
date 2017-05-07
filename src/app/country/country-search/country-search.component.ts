@@ -15,7 +15,7 @@ export class CountrySearchComponent {
     console.log(this.term);
   }
 
-  ngOnInit() {
-    this.onUpdate();
-  }
+  // ngOnInit() {
+  //   this.onUpdate();
+  // }
 }

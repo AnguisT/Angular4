@@ -67,7 +67,7 @@ export const PROPERTIES = [
     language: "Korean",
     capital: "Seoul",
     currency: "South Korean won",
-    flag: ""
+    flag: "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
   },
   {
     id: 8,

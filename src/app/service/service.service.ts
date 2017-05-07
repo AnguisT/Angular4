@@ -11,13 +11,19 @@ import {ActivatedRoute} from "@angular/router";
 
 @Injectable()
 export class ServiceService {
-  private apiUrl = 'http://api.myjson.com/bins/16wlth';
+  private apiUrl = 'api/v1/country';
 
   constructor(private http: Http) { }
 
   getCountry(): Observable<any> {
     return this.http.get(this.apiUrl)
       .map(res => res.json().data as Country[])
+      .catch(ServiceService.handleError);
+  }
+
+  getOneCountry(idCountry): Observable<any> {
+    return this.http.get(this.apiUrl + '/' + idCountry)
+      .map(res => res.json().data as Country)
       .catch(ServiceService.handleError);
   }
 
