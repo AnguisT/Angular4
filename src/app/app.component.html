@@ -1,20 +1,15 @@
 <header>
   <a [routerLink]="['']" routerLinkActive="active">{{menu1}}</a>
   <a [routerLink]="['country']" routerLinkActive="active">{{menu2}}</a>
-  <!--<a routerLink="country" routerLinkActive="active">{{menu2}}</a>-->
 </header>
-
 <main>
-  <div class="container">
-    <router-outlet></router-outlet>
-  </div>
+  <router-outlet></router-outlet>
 </main>
-
 <footer>
   <div>
-    Краткая информация:
+    Brief information:
     <div>
-      Мы продаем вкусный чай!)
+      This project is a test task.
     </div>
   </div>
 </footer>

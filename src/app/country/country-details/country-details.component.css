@@ -1,0 +1,25 @@
+.divImg {
+  float: right;
+  width: 50%;
+}
+
+.img {
+  text-align: center;
+}
+
+.inform {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.main {
+  width: 80%;
+  margin: 20px auto;
+}

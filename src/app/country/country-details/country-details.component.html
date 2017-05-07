@@ -1,8 +1,27 @@
-<div>
-  {{countries.title}}
-  {{countries.language}}
-  {{countries.area}}
-  {{countries.capital}}
-  {{countries.population}}
-  {{countries.valuyuta}}
+<div class="main">
+  <div class="title">
+    <h2>{{country.title}}</h2>
+  </div>
+  <div class="inform">
+    <div>
+      Capital: {{country.capital}}
+    </div>
+    <div>
+      Official language: {{country.language}}
+    </div>
+    <div>
+      Total area: {{country.area}} km<sup>2</sup>
+    </div>
+    <div>
+      Total population: {{country.population}}
+    </div>
+    <div>
+      Currency: {{country.currency}}
+    </div>
+  </div>
+  <div class="divImg">
+    <div class="img">
+      <img src="{{country.flag}}">
+    </div>
+  </div>
 </div>

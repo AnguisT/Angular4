@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {Router} from "@angular/router";
 
 @Component({
   moduleId: module.id,
@@ -10,5 +9,5 @@ import {Router} from "@angular/router";
 
 export class AppComponent {
   menu1 = 'Home';
-  menu2 = 'Country';
+  menu2 = 'Countries';
 }

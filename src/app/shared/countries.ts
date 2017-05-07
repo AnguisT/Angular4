@@ -1,7 +1,7 @@
 export const PROPERTIES = [
   {
     id: 1,
-    title: "USA",
+    title: "United States of America",
     population: 324928000,
     area: 9833520,
     language: "English",
@@ -17,7 +17,7 @@ export const PROPERTIES = [
     language: "Russian",
     capital: "Moscow",
     currency: "Ruble",
-    flag: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Flag_of_Russia_%28Kremlin.ru%29.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Flag_of_Russia_%28Kremlin.ru%29.svg/320px-Flag_of_Russia_%28Kremlin.ru%29.svg.png"
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const PROPERTIES = [
     language: "Chinese",
     capital: "Beijing",
     currency: "Renminbi",
-    flag: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/320px-Flag_of_the_People%27s_Republic_of_China.svg.png"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const PROPERTIES = [
     language: "Hindi",
     capital: "New Delhi",
     currency: "Indian rupee",
-    flag: "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const PROPERTIES = [
     language: "English",
     capital: "London",
     currency: "Pound sterling",
-    flag: "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png"
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const PROPERTIES = [
     language: "French",
     capital: "Paris",
     currency: "Euro",
-    flag: "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png"
   },
   {
     id: 7,
@@ -67,7 +67,7 @@ export const PROPERTIES = [
     language: "Korean",
     capital: "Seoul",
     currency: "South Korean won",
-    flag: "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/320px-Flag_of_South_Korea.svg.png"
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ export const PROPERTIES = [
     language: "German",
     capital: "Berlin",
     currency: "Euro",
-    flag: "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png"
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ export const PROPERTIES = [
     language: "Japanese",
     capital: "Tokyo",
     currency: "Yen",
-    flag: "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png"
   },
   {
     id: 10,
@@ -97,6 +97,6 @@ export const PROPERTIES = [
     language: "Turkish",
     capital: "Ankara",
     currency: "Ruble",
-    flag: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"
+    flag: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png"
   }
 ];
